@@ -96,7 +96,7 @@ st.title("Federal Career Pivot Buddy 👋")
 st.write("""
 Welcome to **Federal Career Pivot Buddy**, a tool to help you explore your readiness for a **successful career pivot** away from federal service.
 
-For this tool, *success* is defined as obtaining employment that is effective, satisfying, and sustainable in an environment where your background, skills, and motivations are utilized and celebrated *within a few months after separation*.  
+For this tool, *success* is defined as obtaining employment that is rewarding and sustainable in an environment where your background, skills, and motivations are utilized and celebrated *within a few months after separation*.  
 
 Long job hunts can be financially, mentally, and physically straining, so this tool emphasizes readiness for the *ideal outcome*: a timely and fulfilling transition.
 
@@ -190,7 +190,7 @@ else:
     suggestions.append("Consider additional training, certificates, or continuing education to expand opportunities.")
 
 # Supervisory Experience
-if supervisory_years > 10:
+if supervisory_years > 8:
     strengths.append("Extensive supervisory experience shows advanced leadership and decision-making abilities.")
 elif supervisory_years > 0:
     strengths.append("Your supervisory background highlights emerging leadership skills.")
@@ -207,7 +207,7 @@ else:
 if 3 <= federal_years <= 15:
     strengths.append("Your federal tenure demonstrates both domain knowledge and flexibility for new challenges.")
 elif federal_years < 3:
-    suggestions.append("Building additional federal experience could strengthen your credibility and confidence in pivots.")
+    suggestions.append("Building additional entry level experience could strengthen your credibility and confidence in pivots.")
 else:
     suggestions.append("Emphasize continuous learning and innovation to counter perceived long-tenure specialization.")
 
